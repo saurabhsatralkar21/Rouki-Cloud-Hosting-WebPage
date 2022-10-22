@@ -56,7 +56,6 @@
     color: #333
 }
 
-
 .bg-primary a, 
 .btn-primary a, 
 .bg-secondary a, 
@@ -67,6 +66,28 @@
 .btn-light a{
     color: #fff;
 }
+
+/* Text colors */
+
+.text-primary {
+    color: #fff;
+}
+
+.text-secondary {
+    color: #fff;
+}
+
+.text-dark {
+    color: #fff;
+}
+
+
+.text-light {
+    color: #333
+}
+
+
+
 
 
 /* Text sizes */
@@ -92,6 +113,29 @@
 
 .text-center {
     text-align: center;
+}
+
+/* Alert */
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 .flex {
